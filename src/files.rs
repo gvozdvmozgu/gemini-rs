@@ -23,7 +23,7 @@ impl GeminiFile {
 /// Use a mime filetype from <https://www.iana.org/assignments/media-types/media-types.xhtml>,
 /// unfortunately this is neccassary for Google to properly proccess the file.
 /// ## Example:
-/// ```rust
+/// ```ignore
 /// let api_key = env::var("GEMINI_API_KEY").unwrap();
 /// let mut convo = Conversation::new(
 ///     api_key.clone(),

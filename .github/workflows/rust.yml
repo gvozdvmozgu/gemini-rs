@@ -40,7 +40,7 @@ jobs:
   unused_dependencies:
     runs-on: ubuntu-latest
     env:
-      RUST_CHANNEL: stable
+      RUST_CHANNEL: nightly
     steps:
       - uses: actions/checkout@v4
       - name: Install Rust toolchain

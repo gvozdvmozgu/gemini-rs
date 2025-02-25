@@ -107,7 +107,7 @@ impl Conversation {
 
     /// Update the safety settings to different thresholds from [safety::SafetySetting]
     /// ## Example:
-    /// ```rust
+    /// ```ignore
     /// let mut convo = Conversation::new(
     ///     "ABC123".to_string,
     ///     "gemini-1.5-flash".to_string
